@@ -9,8 +9,16 @@
     <script src="jspm_packages/system-csp@0.6.js"></script>
     <script src="build.js"></script>
     <script src='config.js'></script>
+
     <script>
-      System.import('app/app');
+      var router = System.import('app/router');
+    </script>
+    <script src="JSXTransformer.js"></script>
+    <script type="text/jsx">
+      /** @jsx React.DOM */
+      router.then(function(x) {
+        renderComponent(document.body);
+      }
     </script>
   </body>
 </html>

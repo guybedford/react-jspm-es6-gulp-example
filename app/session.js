@@ -6,7 +6,7 @@ var sessions = [
     {id: "456", name: "protip: use ember.js", speaker: "rob becker"}
 ];
 
-export default = React.createClass({
+export default React.createClass({
   render: function() {
     var speakerName = "wat";
     var sessionId = this.props.params.sessionId;
