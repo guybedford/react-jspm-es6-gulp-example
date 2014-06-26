@@ -1,0 +1,10 @@
+npm install jspm
+
+jspm install github:reactjs/react-bower
+jspm install github:toranb/toranb-react-nested-router
+
+jspm bundle app/app
+
+python -m SimpleHTTPServer 3000
+
+visit http://localhost:3000 to see the running app
