@@ -1,6 +1,6 @@
 import React from 'github:reactjs/react-bower/react';
 import ReactRouter from 'github:toranb/toranb-react-nested-router/main';
-import App from './main';
+import App from './app';
 import Session from './session';
 
 var Route = ReactRouter.Route;
