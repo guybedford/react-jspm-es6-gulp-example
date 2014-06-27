@@ -1,9 +1,9 @@
 npm install jspm
 
 jspm install github:reactjs/react-bower
-jspm install github:toranb/toranb-react-nested-router
+jspm install github:toranb/toranb-react-nested-router-npm-style
 
-jspm bundle app/app
+jspm bundle app/router
 
 python -m SimpleHTTPServer 3000
 
