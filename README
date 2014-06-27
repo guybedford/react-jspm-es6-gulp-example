@@ -1,7 +1,7 @@
 npm install jspm
 
-jspm install github:reactjs/react-bower
-jspm install github:toranb/toranb-react-nested-router
+jspm install npm:react
+jspm install npm:react-nested-router@0.1.0
 
 jspm bundle app/router
 

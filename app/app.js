@@ -1,5 +1,5 @@
-import React from 'github:reactjs/react-bower/react';
-import ReactRouter from 'github:toranb/toranb-react-nested-router/main';
+import React from 'npm:react/react';
+import ReactRouter from 'npm:react-nested-router/modules/main';
 
 var Link = ReactRouter.Link;
 
