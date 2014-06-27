@@ -6,8 +6,10 @@ import Session from './session';
 var Route = ReactRouter.Route;
 var Router = ReactRouter.Router;
 
-export default Router(
+var router = Router(
   Route( {handler:App}, 
     Route( {name:"session", path:"session/:sessionId", handler:Session})
   )
-)
+);
+
+router.renderComponent(document.body);
